@@ -1,6 +1,6 @@
 @echo off
 set show=no
-set detik=182
+set detik=180
 
 :mulai
 if %show%==yes goto tampil

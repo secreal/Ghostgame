@@ -1,10 +1,10 @@
 @echo off
 set show=no
-<<<<<<< hafi
-set detik=180
-=======
+<<<<<<< HEAD
 set detik=182
->>>>>>> local
+=======
+set detik=180
+>>>>>>> rubah
 
 :mulai
 if %show%==yes goto tampil

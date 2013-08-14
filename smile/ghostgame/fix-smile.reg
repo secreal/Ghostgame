@@ -1,0 +1,172 @@
+Windows Registry Editor Version 5.00
+
+12/11/11 - Disable Symantec Update
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"%systemroot%\\system32\\kirim.exe"="%systemroot%\\system32\\kirim.exe:*:Enabled:kirim.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"%systemroot%\\system32\\kirim.exe"="%systemroot%\\system32\\kirim.exe:*:Enabled:kirim.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\LEFT 4 DEAD\\left4dead.exe"="D:\\Program Files\\LEFT 4 DEAD\\left4dead.exe:*:Enabled:left4dead.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\LEFT 4 DEAD\\left4dead.exe"="%D:\\Program Files\\LEFT 4 DEAD\\left4dead.exe:*:Enabled:left4dead.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"%systemroot%\\system32\\ambil.exe"="%systemroot%\\system32\\ambil.exe:*:Enabled:ambil.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"%systemroot%\\system32\\ambil.exe"="%systemroot%\\system32\\ambil.exe:*:Enabled:ambil.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Battle Realms\\Battle_Realms_F.exe"="D:\\Program Files\\Battle Realms\\Battle_Realms_F.exe:*:Enabled:Battle_Realms_F.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Battle Realms\\Battle_Realms_F.exe"="D:\\Program Files\\Battle Realms\\Battle_Realms_F.exe:*:Enabled:Battle_Realms_F.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Battlefield 2\\BF2.exe"="D:\\Program Files\\Battlefield 2\\BF2.exe:*:Enabled:BF2.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Battlefield 2\\BF2.exe"="D:\\Program Files\\Battlefield 2\\BF2.exe:*:Enabled:BF2.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Counter-Strike 1.6\\hl.exe"="D:\\Program Files\\Counter-Strike 1.6\\hl.exe:*:Enabled:hl.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Counter-Strike 1.6\\hl.exe"="D:\\Program Files\\Counter-Strike 1.6\\hl.exe:*:Enabled:hl.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Warcraft III\\w3l.exe"="D:\\Program Files\\Warcraft III\\w3l.exe:*:Enabled:w3l.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Warcraft III\\w3l.exe"="D:\\Program Files\\Warcraft III\\w3l.exe:*:Enabled:w3l.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Warcraft III\\war3.exe"="D:\\Program Files\\Warcraft III\\w3l.exe:*:Enabled:war3.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List]
+"D:\\Program Files\\Warcraft III\\war3.exe"="D:\\Program Files\\Warcraft III\\w3l.exe:*:Enabled:war3.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\luall.exe]
+"debugger"="cmd /c del"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\LuComServer.exe]
+"debugger"="cmd /c del"
+
+13/12/10 - Penyamarataan Warcraft III Options
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III]
+"Battle.net Gateways"=hex:31,30,30,31,00,30,31,00,62,6e,65,74,2e,64,6f,74,61,\
+  6e,65,72,73,2e,63,6f,6d,00,37,00,64,6f,74,61,6e,65,72,73,00,62,6e,65,74,2e,\
+  6e,75,73,61,2e,69,6e,00,37,00,4e,75,73,61,52,65,62,6f,72,6e,20,28,49,50,4e,\
+  29,00,62,6e,65,74,2e,6e,75,73,61,72,65,62,6f,72,6e,2e,69,6e,00,37,00,4e,75,\
+  73,61,52,65,62,6f,72,6e,20,28,49,50,48,29,00,32,30,32,2e,31,36,32,2e,32,30,\
+  37,2e,31,31,31,00,37,00,4e,75,73,61,52,65,62,6f,72,6e,20,28,49,50,41,29,00,\
+  64,6f,74,61,2e,6e,75,73,61,2e,6e,65,74,2e,69,64,00,37,00,4e,75,73,61,52,65,\
+  62,6f,72,6e,20,28,49,50,4f,29,00,31,31,36,2e,39,30,2e,31,36,37,2e,31,34,37,\
+  00,37,00,4d,6f,65,00,70,75,62,6c,69,63,2e,69,6e,64,6f,67,61,6d,65,72,73,2e,\
+  75,73,00,37,00,49,6e,64,6f,47,61,6d,65,72,73,20,50,55,42,4c,49,43,00,70,72,\
+  6f,2e,69,6e,64,6f,67,61,6d,65,72,73,2e,75,73,00,37,00,49,6e,64,6f,47,61,6d,\
+  65,72,73,20,50,52,4f,00,6a,75,6e,69,6f,72,2e,69,6e,64,6f,67,61,6d,65,72,73,\
+  2e,75,73,00,37,00,49,6e,64,6f,47,61,6d,65,72,73,20,4a,55,4e,49,4f,52,00,66,\
+  72,65,65,2e,69,6e,64,6f,67,61,6d,65,72,73,2e,75,73,00,37,00,49,6e,64,6f,47,\
+  61,6d,65,72,73,20,46,52,45,45,00,32,30,32,2e,38,39,2e,32,30,38,2e,36,31,00,\
+  37,00,44,4e,4b,2e,4e,65,74,20,42,2d,4e,65,74,00,32,30,32,2e,38,39,2e,32,30,\
+  38,2e,36,30,00,37,00,46,43,44,6f,74,41,20,42,2d,4e,65,74,00,32,30,32,2e,31,\
+  36,39,2e,32,32,38,2e,32,00,37,00,4d,47,49,20,50,76,50,47,4e,20,42,2d,4e,65,\
+  74,00,32,32,32,2e,31,32,34,2e,31,33,31,2e,31,33,38,00,37,00,53,75,6d,61,74,\
+  72,61,2d,47,61,6d,65,72,73,20,42,2d,4e,65,74,00,00
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Gameplay]
+"gamespeed"=dword:00000003
+"mousescroll"=dword:00000064
+"mousescrolldisable"=dword:00000000
+"keyscroll"=dword:00000064
+"tooltips"=dword:00000001
+"healthbars"=dword:00000001
+"formations"=dword:00000000
+"formationtoggle"=dword:00000001
+"herobar"=dword:00000001
+"inputsprocket"=dword:00000000
+"ammtype"=dword:00000000
+"ammstyles"="0;0;0;"
+"ammmapprefs"="FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF;FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF,FFFFFFFF;FFFFFFFF;"
+"ammmaphashes"="7C55B6C3:A52E0FB9:4FA9D899:C9655345:42E8A37C:F039AB80:B159370F:250DFA8C:4ED7652E:66FC2C3C:5AB0C8B8:54C4DD84,6AE3AD53:EFEFE26F:F039AB80:B159370F:B6531B8F:250DFA8C:4ED7652E:66FC2C3C:EE13ABD6:655E65CD:5AB0C8B8:54C4DD84,C5C4578E:BCA6CF5:905D39BD:974FDDAA:655E65CD:CCB081A3:BD8B5962:2B20AA70:2E7EEF8D:27BB1140:D6C30DEB:C13D2435,7CDB8865:EBC8FFD1:D5C57B85:26439D66:9D17BC82:E4DB4B8B:52E17985:9D5183FE:F751A570:42A4A4E5:11445655:E3443EAB,C2D2FAF0:4ED7652E:D0B5A64:EE13ABD6:BD8B5962:2E7EEF8D:D5C57B85:52E17985:F751A570:42A4A4E5:11445655:1E30EA05,FF13FE4B:FB558B39,FB558B39,C5C4578E:BCA6CF5:905D39BD:974FDDAA:655E65CD:CCB081A3:BD8B5962:2B20AA70:2E7EEF8D:27BB1140:D6C30DEB:C13D2435,7A0AB567:FF13FE4B:FB558B39,FB558B39,7CDB8865:EBC8FFD1:D5C57B85:26439D66:9D17BC82:E4DB4B8B:52E17985:9D5183FE:F751A570:42A4A4E5:11445655:E3443EAB,FB558B39;103E75B5:6AE3AD53:EFEFE26F:F039AB80:B159370F:B6531B8F:250DFA8C:4ED7652E:EE13ABD6:655E65CD:5AB0C8B8:54C4DD84,C2D2FAF0:4ED7652E:D0B5A64:EE13ABD6:BD8B5962:2E7EEF8D:D5C57B85:52E17985:F751A570:42A4A4E5:11445655:1E30EA05,C5C4578E:BCA6CF5:905D39BD:974FDDAA:655E65CD:CCB081A3:BD8B5962:2B20AA70:E746CB53:2E7EEF8D:27BB1140:D6C30DEB:C13D2435,7CDB8865:EBC8FFD1:D5C57B85:26439D66:9D17BC82:E4DB4B8B:52E17985:9D5183FE:F751A570:11445655:E3443EAB,C5C4578E:BCA6CF5:905D39BD:974FDDAA:655E65CD:CCB081A3:BD8B5962:2B20AA70:E746CB53:2E7EEF8D:27BB1140:D6C30DEB:C13D2435;11445655:5F3E9E74:A7D31BFA:C00E80E5;"
+"ammrace"=dword:00000004
+"customfilter"=dword:007fe000
+"custommask"=dword:00000000
+"allyFilter"=dword:00000000
+"creepFilter"=dword:00000001
+"terrainFilter"=dword:00000001
+"subgrouporder"=dword:00000001
+"multiboardon"=dword:00000000
+"customkeys"=dword:00000001
+"schedrace"=dword:00000020
+"autosaveReplay"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Map]
+"skirmish_V0"=""
+"skirmish_V1"="Maps\\Download\\cr8\\DotA v6.72c.w3x"
+"lan_V0"=""
+"lan_V1"="Maps\\Download\\cr8\\DotA v6.72c.w3x"
+"battlenet_V0"=""
+"battlenet_V1"="Maps\\Download\\cr8\\DotA v6.72c.w3x"
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Misc]
+"seenintromovie"=dword:00000001
+"campaignprofile"="Lotus"
+"clickedtourn"=dword:00000001
+"clickedclan"=dword:00000000
+"clickedladder"=dword:00000001
+"clickedad"=dword:00000001
+"chatsupport"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Sound]
+"provider"=dword:00000001
+"positional"=dword:00000000
+"environmental"=dword:00000000
+"music"=dword:00000001
+"musicvolume"=dword:00000064
+"sfx"=dword:00000001
+"sfxvolume"=dword:00000064
+"ambient"=dword:00000001
+"movement"=dword:00000001
+"unit"=dword:00000001
+"subtitles"=dword:00000001
+"nomidi"=dword:00000000
+"softwaremidi"=dword:00000001
+"nosoundwarn"=dword:00000001
+"donotusewaveout"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\String]
+"userbnet"=""
+"userlocal"=""
+
+[HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Video]
+"reswidth"=dword:00000320
+"resheight"=dword:00000258
+"colordepth"=dword:00000010
+"adapter"=dword:00000000
+"refreshrate"=dword:0000004b
+"gamma"=dword:00000041
+"modeldetail"=dword:00000000
+"animquality"=dword:00000000
+"texquality"=dword:00000001
+"miplevel"=dword:00000000
+"texcolordepth"=dword:00000010
+"particles"=dword:00000001
+"lights"=dword:00000001
+"lockfb"=dword:00000001
+"unitshadows"=dword:00000001
+"occlusion"=dword:00000001
+"cinematicoverrides"=dword:00000000
+"cinematicrefresh"=dword:0000004b
+"cinematicbpp"=dword:00000020
+"cinematicwidth"=dword:00000320
+"cinematicheight"=dword:00000258
+"spellfilter"=dword:00000001
+"maxfps"=dword:000000c8
+

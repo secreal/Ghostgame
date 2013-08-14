@@ -1,0 +1,20 @@
+:: Q and B
+[1] 01. Siapkan d:\program files, share patch, agar bisa dipakai
+[1] 02. Copy game ke folder d:\Program Files install antivirus?
+[1] 03. Copy ghostgame ke folder d:\secre dan sistem plus tools dan share
+[1] 04. lihat IP warnet, buat rangka, simpan
+[1] 05. rubah user ghostgame, ip ghostgame, setting wc3map
+[1] 06. rubah init dan setting boot server
+[1] 07. rubah setup client ghostgame berdasarkan nomor 4 plus boot client
+[1] 08. buat shortcut d:\secre\shortcut
+[1] 09. autoupdate game
+[0] 10. pasang user interface
+[1] 11. kunci ghostgame, Half duplex
+[1] 12. pasang ghostgame client:
+ [1] a. install 2 file ghostgame
+ [1] b. share drive d
+ [1] c. half duplex
+ [1] d. kunci ghostgame
+ [0] e. other: deepfreeze, radmin
+[1] 13. buat folder net, backup semua data: shortcut, rangka, ghostgame, setup
+[1] 14. Finishing, pastikan terkunci
